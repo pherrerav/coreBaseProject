@@ -1,0 +1,116 @@
+2020-02-25T11:03:10.9414996-06:00 0HLTQ2IBSFL8H:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51619/  0 (ca22a1cb)
+2020-02-25T11:03:10.9403827-06:00 0HLTQ2IBSFL8G:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44311/   (ca22a1cb)
+2020-02-25T11:03:11.2549053-06:00 0HLTQ2IBSFL8H:00000001 [INF] Request finished in 305.6133ms 200  (791a596a)
+2020-02-25T11:03:19.5502437-06:00  [INF] [34mi[39m [90m´¢ówdm´¢ú[39m: wait until bundle finished: / (104aa3ec)
+2020-02-25T11:03:29.2458089-06:00  [INF] [34mi[39m [90m´¢ówdm´¢ú[39m: Hash: 474bb200ce213a0ab9fd
+Version: webpack 4.41.5
+Time: 16591ms
+Built at: 2020-02-25 11:03:25
+                                                         Asset      Size  Chunks             Chunk Names
+  /assets/fa-brands-400.067595ad77ecc0db9c81c8905a7eef32.woff2  74.8 KiB          [emitted]  
+    /assets/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot   130 KiB          [emitted]  
+ /assets/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot.gz  88.3 KiB          [emitted]  
+    /assets/fa-brands-400.9d67fa1429375bd2a899a17eb77d0342.svg   699 KiB          [emitted]  
+ /assets/fa-brands-400.9d67fa1429375bd2a899a17eb77d0342.svg.gz   236 KiB          [emitted]  
+    /assets/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf   130 KiB          [emitted]  
+ /assets/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf.gz  88.2 KiB          [emitted]  
+   /assets/fa-brands-400.b564da88bbf0c4aa446fa19653713cd1.woff  87.7 KiB          [emitted]  
+   /assets/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot  33.6 KiB          [emitted]  
+/assets/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot.gz  16.4 KiB          [emitted]  
+ /assets/fa-regular-400.4165c2688309cbfb1b877caf8f75afb5.woff2  13.3 KiB          [emitted]  
+   /assets/fa-regular-400.5d0861781aeef6c82fda3a3076954a1b.svg   141 KiB          [emitted]  
+/assets/fa-regular-400.5d0861781aeef6c82fda3a3076954a1b.svg.gz  36.1 KiB          [emitted]  
+  /assets/fa-regular-400.73cf49a2232c06c920b7a34e36bfb58c.woff  16.4 KiB          [emitted]  
+   /assets/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf  33.3 KiB          [emitted]  
+/assets/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf.gz  16.4 KiB          [emitted]  
+     /assets/fa-solid-900.0724bb8b89ab6b8b9b7df917b17be0b7.svg   829 KiB          [emitted]  
+  /assets/fa-solid-900.0724bb8b89ab6b8b9b7df917b17be0b7.svg.gz   228 KiB          [emitted]  
+   /assets/fa-solid-900.55eb2a60e8181f0e68b558c991973bf0.woff2  74.3 KiB          [emitted]  
+     /assets/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf   189 KiB          [emitted]  
+  /assets/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf.gz  97.4 KiB          [emitted]  
+     /assets/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot   190 KiB          [emitted]  
+  /assets/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot.gz  97.5 KiB          [emitted]  
+    /assets/fa-solid-900.cdfec5cf5e9840889790bcf2c4042583.woff  96.7 KiB          [emitted]  
+                                                      main.css   267 KiB    main  [emitted]  main
+                                                   main.css.gz  38.9 KiB          [emitted]  
+                                                       main.js   868 KiB    main  [emitted]  main
+                                                    main.js.gz   205 KiB          [emitted]  
+Entrypoint main = main.css main.js
+[0] multi webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./src/main.js 40 bytes {main} [built]
+[./node_modules/@fortawesome/fontawesome-free/css/all.css] 1.3 KiB {main} [built]
+[./node_modules/bootstrap/dist/js/bootstrap.js] 132 KiB {main} [built]
+[./node_modules/jquery-validation/dist/jquery.validate.js] 49.5 KiB {main} [built]
+[./node_modules/jquery/dist/jquery.js] 274 KiB {main} [built]
+[./node_modules/popper.js/dist/esm/popper.js] 86.4 KiB {main} [built]
+[./node_modules/querystring-es3/index.js] 127 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/sweetalert2/dist/sweetalert2.all.js] 120 KiB {main} [built]
+[./node_modules/webpack-hot-middleware/client-overlay.js] (webpack)-hot-middleware/client-overlay.js 2.17 KiB {main} [built]
+[./node_modules/webpack-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.68 KiB {main} [built]
+[./node_modules/webpack-hot-middleware/process-update.js] (webpack)-hot-middleware/process-update.js 4.35 KiB {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {main} [built]
+[./src/main.css] 1.37 KiB {main} [built]
+[./src/main.js] 666 bytes {main} [built]
+    + 17 hidden modules
+Child mini-css-extract-plugin ../../../../Repositorio Git\baseproject\baseproject\ClientApp\node_modules\css-loader\dist\cjs.js!../../../../Repositorio Git\baseproject\baseproject\ClientApp\node_modules\sass-loader\dist\cjs.js!../../../../Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@fortawesome\fontawesome-free\css\all.css:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot] 102 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg] 102 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf] 102 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff] 103 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2] 104 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot] 103 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg] 103 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf] 103 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff] 104 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2] 105 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot] 101 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg] 101 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf] 101 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff] 102 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/@fortawesome/fontawesome-free/css/all.css] 81.5 KiB {mini-css-extract-plugin} [built]
+        + 3 hidden modules
+Child mini-css-extract-plugin ../../../../Repositorio Git\baseproject\baseproject\ClientApp\node_modules\css-loader\dist\cjs.js!../../../../Repositorio Git\baseproject\baseproject\ClientApp\node_modules\sass-loader\dist\cjs.js!../../../../Repositorio Git\baseproject\baseproject\ClientApp\src\main.css:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.css] 205 KiB {mini-css-extract-plugin} [built]
+    [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built] (29f69294)
+2020-02-25T11:03:29.2460987-06:00  [INF] [34mi[39m [90m´¢ówdm´¢ú[39m: Compiled successfully. (3e2ec529)
+2020-02-25T11:03:30.6392013-06:00 0HLTQ2IBSFL8G:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Usuarios\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "baseproject.Controllers.UsuariosController" ("baseproject"). (122b2fdf)
+2020-02-25T11:03:30.6689719-06:00 0HLTQ2IBSFL8G:00000001 [INF] Executing action method "baseproject.Controllers.UsuariosController.Index (baseproject)" - Validation state: Valid (dad538d7)
+2020-02-25T11:03:30.6769314-06:00 0HLTQ2IBSFL8G:00000001 [INF] Accessing expired session, Key:"70c42eb4-c115-a793-4a79-ff3ffad70309" (08c5a9e7)
+2020-02-25T11:03:30.6952033-06:00 0HLTQ2IBSFL8G:00000001 [INF] Executed action method "baseproject.Controllers.UsuariosController.Index (baseproject)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 9.4482ms. (50a9e262)
+2020-02-25T11:03:30.7146856-06:00 0HLTQ2IBSFL8G:00000001 [INF] Executing RedirectResult, redirecting to "/Security/Logout". (d98d540e)
+2020-02-25T11:03:30.7309622-06:00 0HLTQ2IBSFL8G:00000001 [INF] Executed action "baseproject.Controllers.UsuariosController.Index (baseproject)" in 76.2328ms (afa2e885)
+2020-02-25T11:03:30.7423523-06:00 0HLTQ2IBSFL8G:00000001 [INF] Request finished in 19813.541ms 302  (791a596a)
+2020-02-25T11:03:30.7744107-06:00 0HLTQ2IBSFL8H:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44311/Security/Logout   (ca22a1cb)
+2020-02-25T11:03:30.8064546-06:00 0HLTQ2IBSFL8H:00000002 [INF] Route matched with "{action = \"Logout\", controller = \"Security\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Logout()" on controller "baseproject.Controllers.SecurityController" ("baseproject"). (122b2fdf)
+2020-02-25T11:03:32.4883158-06:00 0HLTQ2IBSFL8H:00000002 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"MyDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=baseproject " (9958f5bb)
+2020-02-25T11:03:32.4907073-06:00 0HLTQ2IBSFL8H:00000002 [INF] Executing action method "baseproject.Controllers.SecurityController.Logout (baseproject)" - Validation state: Valid (dad538d7)
+2020-02-25T11:03:32.4913727-06:00 0HLTQ2IBSFL8H:00000002 [INF] Accessing expired session, Key:"70c42eb4-c115-a793-4a79-ff3ffad70309" (08c5a9e7)
+2020-02-25T11:03:32.4917495-06:00 0HLTQ2IBSFL8H:00000002 [INF] Executed action method "baseproject.Controllers.SecurityController.Logout (baseproject)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 0.8654ms. (50a9e262)
+2020-02-25T11:03:32.4922795-06:00 0HLTQ2IBSFL8H:00000002 [INF] Executing RedirectResult, redirecting to "/Security/login". (d98d540e)
+2020-02-25T11:03:32.4926069-06:00 0HLTQ2IBSFL8H:00000002 [INF] Executed action "baseproject.Controllers.SecurityController.Logout (baseproject)" in 1685.7291ms (afa2e885)
+2020-02-25T11:03:32.4992225-06:00 0HLTQ2IBSFL8H:00000002 [INF] Request finished in 1724.5407ms 302  (791a596a)
+2020-02-25T11:03:32.5091441-06:00 0HLTQ2IBSFL8G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44311/Security/login   (ca22a1cb)
+2020-02-25T11:03:32.5169111-06:00 0HLTQ2IBSFL8G:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Security\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "baseproject.Controllers.SecurityController" ("baseproject"). (122b2fdf)
+2020-02-25T11:03:32.5202220-06:00 0HLTQ2IBSFL8G:00000002 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"MyDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=baseproject " (9958f5bb)
+2020-02-25T11:03:32.5204789-06:00 0HLTQ2IBSFL8G:00000002 [INF] Executing action method "baseproject.Controllers.SecurityController.Login (baseproject)" - Validation state: Valid (dad538d7)
+2020-02-25T11:03:32.5216257-06:00 0HLTQ2IBSFL8G:00000002 [INF] Executed action method "baseproject.Controllers.SecurityController.Login (baseproject)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9877ms. (50a9e262)
+2020-02-25T11:03:32.6079047-06:00 0HLTQ2IBSFL8G:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2020-02-25T11:03:32.9133478-06:00 0HLTQ2IBSFL8G:00000002 [INF] Executed ViewResult - view "Login" executed in 382.9213ms. (f66409e9)
+2020-02-25T11:03:32.9135624-06:00 0HLTQ2IBSFL8G:00000002 [INF] Executed action "baseproject.Controllers.SecurityController.Login (baseproject)" in 396.4601ms (afa2e885)
+2020-02-25T11:03:32.9325042-06:00 0HLTQ2IBSFL8G:00000002 [INF] Request finished in 423.2791ms 200 text/html; charset=utf-8 (791a596a)
+2020-02-25T11:03:33.0045189-06:00 0HLTQ2IBSFL8H:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44311/dist/security.css   (ca22a1cb)
+2020-02-25T11:03:33.0238490-06:00 0HLTQ2IBSFL8G:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44311/dist/security.js?v=2u31NIFiMox20BNlX8ifjKCRd7QsxAe4NjXwfI8XnT4   (ca22a1cb)
+2020-02-25T11:03:33.0300103-06:00 0HLTQ2IBSFL8I:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44311/images/baclogo.png   (ca22a1cb)
+2020-02-25T11:03:33.0371526-06:00 0HLTQ2IBSFL8H:00000003 [INF] Sending file. Request path: '"/dist/security.css"'. Physical path: '"C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\wwwroot\dist\security.css"' (27b0a520)
+2020-02-25T11:03:33.0373872-06:00 0HLTQ2IBSFL8H:00000003 [INF] Request finished in 33.0861ms 200 text/css (791a596a)
+2020-02-25T11:03:33.0665364-06:00 0HLTQ2IBSFL8I:00000001 [INF] Sending file. Request path: '"/images/baclogo.png"'. Physical path: '"C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\wwwroot\images\baclogo.png"' (27b0a520)
+2020-02-25T11:03:33.0828562-06:00 0HLTQ2IBSFL8I:00000001 [INF] Request finished in 52.9495ms 200 image/png (791a596a)
+2020-02-25T11:03:33.0779609-06:00 0HLTQ2IBSFL8G:00000003 [INF] Sending file. Request path: '"/dist/security.js"'. Physical path: '"C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\wwwroot\dist\security.js"' (27b0a520)
+2020-02-25T11:03:33.0917958-06:00 0HLTQ2IBSFL8G:00000003 [INF] Request finished in 68.1124ms 200 application/javascript (791a596a)
+2020-02-25T11:04:43.4467852-06:00 0HLTQ2IBSFL8J:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:44311/Security/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 37 (ca22a1cb)
+2020-02-25T11:04:43.5126163-06:00 0HLTQ2IBSFL8J:00000001 [INF] Route matched with "{action = \"CheckLogin\", controller = \"Security\"}". Executing controller action with signature "Int32 CheckLogin(System.String, System.String)" on controller "baseproject.Controllers.SecurityController" ("baseproject"). (122b2fdf)
+2020-02-25T11:04:43.5140268-06:00 0HLTQ2IBSFL8J:00000001 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"MyDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=baseproject " (9958f5bb)
+2020-02-25T11:04:43.5989389-06:00 0HLTQ2IBSFL8J:00000001 [INF] Executing action method "baseproject.Controllers.SecurityController.CheckLogin (baseproject)" - Validation state: Valid (dad538d7)
+2020-02-25T11:05:04.9731100-06:00 0HLTQ2IBSFL8J:00000001 [ERR] The specified domain either does not exist or could not be contacted (23dec6b1)

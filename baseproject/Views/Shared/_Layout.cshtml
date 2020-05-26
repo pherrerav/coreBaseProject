@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="~/images/bacIcon.ico">
+    <title>App</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="~/dist/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/dist/plugins/datatables/dataTables.bootstrap4.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        
+        <partial name="~/Views/Shared/_PartialNavbar.cshtml" />
+        <partial name="~/Views/Shared/_PartialSidebar.cshtml" />
+
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0 text-dark" id="paginaNombre">@ViewBag.Pagina</h1>
+                        </div><!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">@ViewBag.Modulo</a></li>
+                                <li class="breadcrumb-item active">@ViewBag.Pagina</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-danger card-outline">
+                                <div class="card-body">
+                                    <!-------------------------------------------------------------------------------------->
+                                    @RenderBody()
+                                    <!-------------------------------------------------------------------------------------->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+
+            </div>
+            <!-- Default to the left -->
+            <strong>BAC Credomatic 2020 <a asp-route="dashboard" asp-route-id="5">MiApp</a>.</strong>  Innovation Development Team.
+        </footer>
+    </div>
+    <script>
+        let APP = window.APP || {};
+    </script>
+    <script src="~/dist/main.js"></script>
+    <script src="~/dist/adminlte.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

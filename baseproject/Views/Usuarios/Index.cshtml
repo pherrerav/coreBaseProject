@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewData["Title"] = "MiApp/Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table id="tblUsuarios" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+        <tr>
+            <th>Codigo Usuario</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Estado</th>
+            <th>Id</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<div class="modal fade" id="usuarioModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Datos de usuario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" id="frmUsuario" name="frmUsuario" class="form-horizontal" method="POST">
+                    <div class="group col-8">
+                        <label>Código de Usuario</label>
+                        <input type="hidden" id="Id" name="Id">
+                        <input type="text" class="form-control" id="CodigoUsuario" name="CodigoUsuario" placeholder="Código de Usuario">
+                        <label for="CodigoUsuario" class="validation_error_message help-block"></label>
+                    </div>
+                    <div class="group col-12">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre">
+                        <label for="Nombre" class="validation_error_message help-block"></label>
+                    </div>
+                    <div class="group col-12">
+                        <label>Apellidos</label>
+                        <input type="text" class="form-control" id="Apellidos" name="Apellidos" placeholder="Apellidos">
+                        <label for="Apellidos" class="validation_error_message help-block"></label>
+                    </div>
+                    <div class="group col-8">
+                        <label>Perfiles</label>
+                        <select id="PerfilId" name="PerfilId" class="form-control">
+                            <option value="">Perfiles</option>
+                            @foreach (var perfil in ViewBag.perfiles)
+                            {
+                                <option value="@perfil.Id">@perfil.PerfilNombre</option>
+                            }
+                        </select>
+                        <label for="PerfilId" class="validation_error_message help-block"></label>
+                    </div>
+                    <div class="group col-8">
+                        <label>Estado</label>
+                        <select id="Estado" name="Estado" class="form-control">
+                            <option value="1">Activo</option>
+                            <option value="0">Inactivo</option>
+                        </select>
+                        <label for="Estado" class="validation_error_message help-block"></label>
+                    </div>
+                    <input type="submit" id="btnGuardar" value="Guardar" class="btn btn-success">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="GetUsuarios" data-request-url="@Url.Action("GetUsuarios", "Usuarios")"></div>
+<div id="AgregarUsuario" data-request-url="@Url.Action("AgregarUsuario", "Usuarios")"></div>
+<div id="ModificarUsuario" data-request-url="@Url.Action("ModificarUsuario", "Usuarios")"></div>
+@section Scripts {
+    <script>
+        APP.usuario.init();
+    </script>
+}

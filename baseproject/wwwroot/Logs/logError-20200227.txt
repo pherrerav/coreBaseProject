@@ -1,0 +1,231 @@
+2020-02-27T09:29:55.6889125-06:00 0HLTRJ7GVQCVU:00000001 [ERR] The specified domain either does not exist or could not be contacted (23dec6b1)
+2020-02-27T09:29:55.6889125-06:00 0HLTRJ7GVQCVT:00000001 [ERR] The specified domain either does not exist or could not be contacted (23dec6b1)
+2020-02-27T11:25:46.0088771-06:00 0HLTRL83KU00C:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Usuarios_Index.<ExecuteAsync>b__17_0() in C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\Views\Usuarios\Index.cshtml:line 51
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Usuarios_Index.ExecuteAsync() in C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\Views\Usuarios\Index.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-02-27T11:32:43.3460173-06:00 0HLTRLATKMJT1:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Perfiles__PartialTblPaginas.ExecuteAsync() in C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\Views\Perfiles\_PartialTblPaginas.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Perfiles_Index.<ExecuteAsync>b__15_0()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Perfiles_Index.ExecuteAsync() in C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\Views\Perfiles\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-02-27T15:19:39.0574592-06:00  [ERR] [31m├ù[39m [90m´¢ówdm´¢ú[39m: Hash: 0edf9a2eee9d2c83fc2b
+Version: webpack 4.41.5
+Time: 431ms
+Built at: 2020-02-27 15:19:38
+                                                         Asset      Size  Chunks                               Chunk Names
+  /assets/fa-brands-400.067595ad77ecc0db9c81c8905a7eef32.woff2  74.8 KiB                                       
+    /assets/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot   130 KiB                                       
+ /assets/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot.gz  88.3 KiB          [emitted]                    
+    /assets/fa-brands-400.9d67fa1429375bd2a899a17eb77d0342.svg   699 KiB                                       
+ /assets/fa-brands-400.9d67fa1429375bd2a899a17eb77d0342.svg.gz   236 KiB          [emitted]                    
+    /assets/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf   130 KiB                                       
+ /assets/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf.gz  88.2 KiB          [emitted]                    
+   /assets/fa-brands-400.b564da88bbf0c4aa446fa19653713cd1.woff  87.7 KiB                                       
+   /assets/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot  33.6 KiB                                       
+/assets/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot.gz  16.4 KiB          [emitted]                    
+ /assets/fa-regular-400.4165c2688309cbfb1b877caf8f75afb5.woff2  13.3 KiB                                       
+   /assets/fa-regular-400.5d0861781aeef6c82fda3a3076954a1b.svg   141 KiB                                       
+/assets/fa-regular-400.5d0861781aeef6c82fda3a3076954a1b.svg.gz  36.1 KiB          [emitted]                    
+  /assets/fa-regular-400.73cf49a2232c06c920b7a34e36bfb58c.woff  16.4 KiB                                       
+   /assets/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf  33.3 KiB                                       
+/assets/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf.gz  16.4 KiB          [emitted]                    
+     /assets/fa-solid-900.0724bb8b89ab6b8b9b7df917b17be0b7.svg   829 KiB                                       
+  /assets/fa-solid-900.0724bb8b89ab6b8b9b7df917b17be0b7.svg.gz   228 KiB          [emitted]                    
+   /assets/fa-solid-900.55eb2a60e8181f0e68b558c991973bf0.woff2  74.3 KiB                                       
+     /assets/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf   189 KiB                                       
+  /assets/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf.gz  97.4 KiB          [emitted]                    
+     /assets/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot   190 KiB                                       
+  /assets/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot.gz  97.5 KiB          [emitted]                    
+    /assets/fa-solid-900.cdfec5cf5e9840889790bcf2c4042583.woff  96.7 KiB                                       
+                          612a79d23bb0371ff2e2.hot-update.json  46 bytes          [emitted] [immutable] [hmr]  
+                       main.612a79d23bb0371ff2e2.hot-update.js  3.94 KiB    main  [emitted] [immutable] [hmr]  main
+                                                      main.css   467 KiB    main                               main
+                                                   main.css.gz  65.2 KiB          [emitted]                    
+                                                       main.js  1.41 MiB    main  [emitted]                    main
+                                                    main.js.gz   334 KiB          [emitted]                    
+Entrypoint main = main.css main.js main.612a79d23bb0371ff2e2.hot-update.js
+[0] multi webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./src/main.js 40 bytes {main}
+[./node_modules/@fortawesome/fontawesome-free/css/all.css] 1.3 KiB {main}
+[./node_modules/bootstrap/dist/css/bootstrap.css] 1.32 KiB {main}
+[./node_modules/bootstrap/dist/js/bootstrap.js] 132 KiB {main}
+[./node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css] 1.33 KiB {main}
+[./node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js] 4.58 KiB {main}
+[./node_modules/datatables.net-buttons-bs4/css/buttons.bootstrap4.css] 1.32 KiB {main}
+[./node_modules/datatables.net-buttons-bs4/js/buttons.bootstrap4.js] 1.51 KiB {main}
+[./node_modules/jquery-validation/dist/jquery.validate.js] 49.5 KiB {main}
+[./node_modules/jquery/dist/jquery.js] 274 KiB {main}
+[./node_modules/popper.js/dist/esm/popper.js] 86.4 KiB {main}
+[./node_modules/querystring-es3/index.js] 127 bytes {main}
+[./node_modules/strip-ansi/index.js] 161 bytes {main}
+[./node_modules/webpack-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.68 KiB {main}
+[./src/main.js] 718 bytes {main}
+    + 32 hidden modules
+
+ERROR in ./src/logs.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\src\logs.js: Unexpected token, expected "," (13:12)
+
+  11 |             "bDestroy": true,
+  12 |             "order": [[0, "desc"]]
+> 13 |             "scrollX": true,
+     |             ^
+  14 |             "processing": true,
+  15 |             ajax: {
+  16 |                 url: $("#GetLogsFiles").data('request-url'),
+    at Parser.raise (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:7017:17)
+    at Parser.unexpected (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:8395:16)
+    at Parser.expect (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:8381:28)
+    at Parser.parseObj (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9982:14)
+    at Parser.parseExprAtom (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9616:28)
+    at Parser.parseExprSubscripts (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9259:23)
+    at Parser.parseMaybeUnary (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9239:21)
+    at Parser.parseExprOps (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9109:23)
+    at Parser.parseMaybeConditional (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9082:23)
+    at Parser.parseMaybeAssign (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9037:21)
+    at Parser.parseExprListItem (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:10327:18)
+    at Parser.parseCallExpressionArguments (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9440:22)
+    at Parser.parseSubscript (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9346:31)
+    at Parser.parseSubscripts (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9276:19)
+    at Parser.parseExprSubscripts (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9265:17)
+    at Parser.parseMaybeUnary (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9239:21)
+ @ ./src/main.js 15:0-26
+ @ multi webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./src/main.js (ce978e2a)
+2020-02-27T15:57:59.7371409-06:00  [ERR] [31m├ù[39m [90m´¢ówdm´¢ú[39m: Hash: 0136e279ffb0449a72b9
+Version: webpack 4.41.5
+Time: 401ms
+Built at: 2020-02-27 15:57:59
+                                                         Asset      Size  Chunks                               Chunk Names
+  /assets/fa-brands-400.067595ad77ecc0db9c81c8905a7eef32.woff2  74.8 KiB                                       
+    /assets/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot   130 KiB                                       
+ /assets/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot.gz  88.3 KiB          [emitted]                    
+    /assets/fa-brands-400.9d67fa1429375bd2a899a17eb77d0342.svg   699 KiB                                       
+ /assets/fa-brands-400.9d67fa1429375bd2a899a17eb77d0342.svg.gz   236 KiB          [emitted]                    
+    /assets/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf   130 KiB                                       
+ /assets/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf.gz  88.2 KiB          [emitted]                    
+   /assets/fa-brands-400.b564da88bbf0c4aa446fa19653713cd1.woff  87.7 KiB                                       
+   /assets/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot  33.6 KiB                                       
+/assets/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot.gz  16.4 KiB          [emitted]                    
+ /assets/fa-regular-400.4165c2688309cbfb1b877caf8f75afb5.woff2  13.3 KiB                                       
+   /assets/fa-regular-400.5d0861781aeef6c82fda3a3076954a1b.svg   141 KiB                                       
+/assets/fa-regular-400.5d0861781aeef6c82fda3a3076954a1b.svg.gz  36.1 KiB          [emitted]                    
+  /assets/fa-regular-400.73cf49a2232c06c920b7a34e36bfb58c.woff  16.4 KiB                                       
+   /assets/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf  33.3 KiB                                       
+/assets/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf.gz  16.4 KiB          [emitted]                    
+     /assets/fa-solid-900.0724bb8b89ab6b8b9b7df917b17be0b7.svg   829 KiB                                       
+  /assets/fa-solid-900.0724bb8b89ab6b8b9b7df917b17be0b7.svg.gz   228 KiB          [emitted]                    
+   /assets/fa-solid-900.55eb2a60e8181f0e68b558c991973bf0.woff2  74.3 KiB                                       
+     /assets/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf   189 KiB                                       
+  /assets/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf.gz  97.4 KiB          [emitted]                    
+     /assets/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot   190 KiB                                       
+  /assets/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot.gz  97.5 KiB          [emitted]                    
+    /assets/fa-solid-900.cdfec5cf5e9840889790bcf2c4042583.woff  96.7 KiB                                       
+                          6f816a4e7a2b308a5e9b.hot-update.json  46 bytes          [emitted] [immutable] [hmr]  
+                       main.6f816a4e7a2b308a5e9b.hot-update.js  3.95 KiB    main  [emitted] [immutable] [hmr]  main
+                                                      main.css   467 KiB    main                               main
+                                                   main.css.gz  65.2 KiB          [emitted]                    
+                                                       main.js  1.41 MiB    main  [emitted]                    main
+                                                    main.js.gz   334 KiB          [emitted]                    
+Entrypoint main = main.css main.js main.6f816a4e7a2b308a5e9b.hot-update.js
+[0] multi webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./src/main.js 40 bytes {main}
+[./node_modules/@fortawesome/fontawesome-free/css/all.css] 1.3 KiB {main}
+[./node_modules/bootstrap/dist/css/bootstrap.css] 1.32 KiB {main}
+[./node_modules/bootstrap/dist/js/bootstrap.js] 132 KiB {main}
+[./node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css] 1.33 KiB {main}
+[./node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js] 4.58 KiB {main}
+[./node_modules/datatables.net-buttons-bs4/css/buttons.bootstrap4.css] 1.32 KiB {main}
+[./node_modules/datatables.net-buttons-bs4/js/buttons.bootstrap4.js] 1.51 KiB {main}
+[./node_modules/jquery-validation/dist/jquery.validate.js] 49.5 KiB {main}
+[./node_modules/jquery/dist/jquery.js] 274 KiB {main}
+[./node_modules/popper.js/dist/esm/popper.js] 86.4 KiB {main}
+[./node_modules/querystring-es3/index.js] 127 bytes {main}
+[./node_modules/strip-ansi/index.js] 161 bytes {main}
+[./node_modules/webpack-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true] (webpack)-hot-middleware/client.js?path=__webpack_hmr&dynamicPublicPath=true 7.68 KiB {main}
+[./src/main.js] 718 bytes {main}
+    + 32 hidden modules
+
+ERROR in ./src/logs.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\src\logs.js: Unexpected token, expected "," (14:12)
+
+  12 |                 url: '//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json'
+  13 |             }
+> 14 |             "bDestroy": true,
+     |             ^
+  15 |             "order": [[0, "desc"]],
+  16 |             "scrollX": true,
+  17 |             "processing": true,
+    at Parser.raise (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:7017:17)
+    at Parser.unexpected (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:8395:16)
+    at Parser.expect (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:8381:28)
+    at Parser.parseObj (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9982:14)
+    at Parser.parseExprAtom (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9616:28)
+    at Parser.parseExprSubscripts (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9259:23)
+    at Parser.parseMaybeUnary (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9239:21)
+    at Parser.parseExprOps (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9109:23)
+    at Parser.parseMaybeConditional (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9082:23)
+    at Parser.parseMaybeAssign (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9037:21)
+    at Parser.parseExprListItem (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:10327:18)
+    at Parser.parseCallExpressionArguments (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9440:22)
+    at Parser.parseSubscript (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9346:31)
+    at Parser.parseSubscripts (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9276:19)
+    at Parser.parseExprSubscripts (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9265:17)
+    at Parser.parseMaybeUnary (C:\Users\Administrator\Desktop\Repositorio Git\baseproject\baseproject\ClientApp\node_modules\@babel\parser\lib\index.js:9239:21)
+ @ ./src/main.js 15:0-26
+ @ multi webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./src/main.js (373c713a)

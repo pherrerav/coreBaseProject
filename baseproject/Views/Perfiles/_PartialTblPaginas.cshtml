@@ -1,0 +1,21 @@
+﻿<table id="tblPaginas" class="table  table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Paginas</th>
+            <th>Dar Acceso</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pagina in ViewBag.paginas)
+        {
+            <tr>
+                <td>@pagina.PaginaNombre</td>
+                <td>
+                    <input type="checkbox" id="@pagina.Id" />
+                    <span class="lbl"></span>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,95 @@
+﻿@using Microsoft.AspNetCore.Http;
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-danger elevation-4">
+    <!-- Brand Logo -->
+    <a asp-route="dashboard" asp-route-id="5" class="brand-link" style="background-color:#d60028">
+        <img src="~/images/leon_blanco_rojo.png" alt="Calendario" class="brand-image "style="opacity: .8"> 
+        <span class="brand-text font-weight-light">Mi App</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+               <img src="~/images/usuario.png" class="img-circle elevation-2" alt="User Image">
+            </div>
+            <div class="info">
+                <a href="#" id="UsuarioSistema" class="d-block">@Context.Session.GetString("_User")</a>
+            </div>
+        </div>
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+    with font-awesome or any other icon font library -->
+                <li class="nav-item">
+                    <a asp-route="dashboard"
+                       asp-route-id="5"
+                       class="nav-link">
+                        <i class="fa fa-dashboard nav-icon"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fa fa-wrench"></i>
+                        <p>
+                            Mantenimientos
+                            <i class="right fa fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview " id="liSeguridad">
+                    <a href="#" class="nav-link" id="linkSeguridad">
+                        <i class="nav-icon fa fa-lock"></i>
+                        <p>
+                            Seguridad
+                            <i class="right fa fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-route="usuarios"
+                               asp-route-id="1"
+                               id="linkUsuarios"
+                               class="nav-link">
+                                <i class="fa fa-user nav-icon"></i>
+                                <p>Usuarios</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-route="perfiles"
+                               asp-route-id="2"
+                               id="linkPerfiles"
+                               class="nav-link">
+                                <i class="fa fa-cogs nav-icon"></i>
+                                <p>Perfiles</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-route="logs"
+                               asp-route-id="3"
+                               id="linkLogs"
+                               class="nav-link">
+                                <i class="fa fa-file nav-icon"></i>
+                                <p>Logs</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview ">
+                    <a href="#" class="nav-link" id="linkSeguridad">
+                        <i class="nav-icon fa fa-file-excel-o"></i>
+                        <p>
+                            Reportes
+                            <i class="right fa fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>
