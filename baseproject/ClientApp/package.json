@@ -40,7 +40,7 @@
     "datatables.net-buttons-bs4": "^1.6.1",
     "datatables.net-plugins": "^1.10.20",
     "jquery": "^3.4.1",
-    "jquery-validation": "^1.19.1",
+    "jquery-validation": "^1.19.3",
     "moment": "^2.24.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "popper.js": "^1.16.1",
